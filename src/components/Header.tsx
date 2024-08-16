@@ -5,15 +5,33 @@ import React from "react";
 
 type HeaderProps = {
   logo: string;
+  activeMenuItem: string;
 };
 
-const Header: React.FC<HeaderProps> = ({ logo }) => {
+const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
   const navItems = [
-    { text: "Home", isSemibold: true },
-    { text: "About Us", isSemibold: false },
-    { text: "Results", isSemibold: false },
-    { text: "Achiever's Message", isSemibold: false },
-    { text: "Super 60 New Batch", isSemibold: true, isHighlighted: true },
+    { text: "Home", isSemibold: activeMenuItem === "home", href: "/" },
+    {
+      text: "About Us",
+      isSemibold: activeMenuItem === "about",
+      href: "/about",
+    },
+    {
+      text: "Results",
+      isSemibold: activeMenuItem === "results",
+      href: "/results",
+    },
+    {
+      text: "Achiever's Message",
+      isSemibold: activeMenuItem === "achievers",
+      href: "#",
+    },
+    {
+      text: "Super 60 New Batch",
+      isSemibold: activeMenuItem === "new-batch",
+      isHighlighted: true,
+      href: "/new-batch",
+    },
   ];
 
   return (
@@ -28,7 +46,7 @@ const Header: React.FC<HeaderProps> = ({ logo }) => {
         {navItems.map((item, index) => (
           <a
             key={index}
-            href="#"
+            href={item.href}
             className={`self-stretch my-auto ml-10 ${
               item.isSemibold ? "font-semibold" : ""
             } ${item.isHighlighted ? "text-indigo-700" : ""} ${

@@ -36,8 +36,11 @@ const MainComponent: React.FC = () => {
 
   return (
     <main className="flex flex-col rounded-none">
-      <Header logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c54ea12a1dd71538b8d7eb0bcf4c1326c90bc15b7296df6787380ae5698836bd?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9" />
-      <HeroBanner heroImage="https://cdn.builder.io/api/v1/image/assets/TEMP/a48ed530e0f0b9c634d7e61698780c5af6a752e1f84cc8bb9f9284e706b0818d?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9" />
+      <Header
+        activeMenuItem="home"
+        logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c54ea12a1dd71538b8d7eb0bcf4c1326c90bc15b7296df6787380ae5698836bd?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
+      />
+      <HeroBanner heroImage="/achievers-2023.jpeg" />
       <WhyCAT2IIM
         statIcon="https://cdn.builder.io/api/v1/image/assets/TEMP/2a2feafe75cded1131096584e908edfce94b477b2293a109b61fef2f7a2f71cf?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
         features={features}

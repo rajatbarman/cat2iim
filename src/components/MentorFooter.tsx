@@ -3,7 +3,100 @@
  */
 "use client";
 import * as React from "react";
-import ReadMoreReact from "read-more-react";
+import Testimonial from "./Testimonial";
+import Footer from "./Footer";
+
+export const testimonials = [
+  {
+    name: "Unnati Mangal",
+    result: "IIM Shillong 23-25",
+    text: `Thank you so much sir for always being a mentor. The journey
+                with you and CAT2IIM has played a great role in my CAT 2022
+                preparation. I could score 97.82%tile and join IIM Shillong just
+                because of your constant guidance, motivation and short tricks.
+                I want to express my sincere appreciation to CAT2IIM and Manoj
+                Sir for the one-to-one mentoring sessions provided during my CAT
+                preparation. The personalized guidance and short tricks shared
+                were incredibly effective in enhancing my problem-solving
+                skills. The phase-wise strategy and structured plan for mocks
+                were particularly beneficial, giving me a clear roadmap to
+                follow and helping me track my progress effectively. This
+                approach not only improved my confidence but also ensured I was
+                well-prepared for each phase of the preparation. Thank you for
+                your unwavering support and for equipping me with the tools I
+                need to succeed in the CAT 2022 & SNAP 2022 (97.84%tile) exam.`,
+    photoURL: "/unnati-mangal.jpeg",
+  },
+  {
+    name: "Shubham Goel",
+    result: "XLRI Delhi 24-26",
+    text: `I am thrilled to share my journey from CAT preparation to
+                securing a coveted seat at XLRI. 🌟 𝐆𝐫𝐚𝐭𝐢𝐭𝐮𝐝𝐞 𝐭𝐨 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 🙏
+                First and foremost, I want to express my heartfelt gratitude to
+                CAT2IIM, the coaching institute that played a pivotal role in my
+                success. Their unwavering commitment to excellence, personalized
+                guidance, and innovative pedagogy truly set them apart. 🚀 𝐓𝐡𝐞
+                𝐂𝐀𝐓𝟐𝐈𝐈𝐌 𝐏𝐞𝐝𝐚𝐠𝐨𝐠𝐲 📚 CAT2IIM's approach is unique and effective.
+                Here's what stood out for me: 1. 𝐈𝐧𝐝𝐢𝐯𝐢𝐝𝐮𝐚𝐥𝐢𝐳𝐞𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧:
+                CAT2IIM recognizes that every student is different. They tailor
+                their coaching to meet individual needs, ensuring a personalized
+                learning experience. 2. 𝐄𝐱𝐚𝐦 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲: Their expert faculty
+                provided invaluable insights into tackling CAT, SNAP, NMAT, and
+                XAT. Their mock test strategies were spot-on, which helped boost
+                my percentile. 3. 𝐏𝐈 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧: CAT2IIM's interview
+                preparation sessions were game-changers. They helped me build
+                confidence, articulate my thoughts, and present my best self
+                during interviews. 𝐌𝐲 𝐒𝐭𝐞𝐥𝐥𝐚𝐫 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 🌟 - CAT: 98.47 -
+                SNAP: 97.5 - NMAT: 237 - XAT: 95.3 𝐂𝐚𝐥𝐥𝐬 𝐚𝐧𝐝 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧𝐬 📞 I
+                received interview calls from some of the top B-schools: - XLRI
+                - IIFT - MDI - NMIMS - IIM Rohtak And the good news doesn't end
+                there! I converted NMIMS BA, MDI HRM and I’m also waitlisted for
+                IIFT’s Flagship program. 🎓 𝐉𝐨𝐢𝐧 𝐭𝐡𝐞 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 𝐅𝐚𝐦𝐢𝐥𝐲!🤝 CAT2IIM's
+                success stories are built on word-of-mouth recommendations.
+                Let's spread the word and help more aspirants achieve their
+                dreams. 🌈 Thank you, CAT2IIM, for being my guiding light! 🙌`,
+    photoURL: "/shubham-goel.jpeg",
+  },
+  {
+    name: "Sourav Ranjan",
+    result: "NMIMS Mumbai 23 - 25",
+    text: `For someone like me who quit maths after class 10 and didn't even remember the basics. Your motivation to slowly work on basics and then on advance really helped. 
+
+The USP of your classes is that you sit with each student, identify there deficiency and give a customised preparation strategy. The best investment if you want to crack CAT/NMAT/XAT. 
+
+If you're not good in Quant and LR, you will need a preparation and exam strategy. Join him, it's a no brainer.
+
+Having spent a year at NMIMS Mumbai, I must say that persistence is the name of the game if you want to succeed. 
+I had days when I almost gave up but Manoj Sir pushed to keep moving forward. Thank you Manoj Sir.`,
+    photoURL: "/sourav-ranjan.jpeg",
+  },
+  {
+    name: "Dr. Purnopama",
+    result: "IIM Udaipur 23-25",
+    text: `Thankyou so much sir for being such a great mentor for us. You have been a constant source of motivation whenever our motivation levels went downhill. CAT2IIM grooms you not just to face the exam, but also guides you in each and every step of the exam. The level of personal attention and guidance you give to any student is really difficult to find anywhere else. Hat's off to your hardwork!
+
+After joining IIM Udaipur my life had been very different, the transition from being a Doctor to a MBA student is very enriching and exciting.`,
+    photoURL: "/dr-purnopama.jpeg",
+  },
+  {
+    name: "Shubham Dwivedi",
+    result: "ISB 25-26",
+    text: `Joining Manoj Sir's online classes at CAT2IIM was a turning point in my journey to crack CAT, XAT, and GMAT. Attending his sessions from the comfort of my home, I found myself learning in a way that was both engaging and incredibly effective. Manoj Sir has a unique way of breaking down complex concepts, making even the toughest topics seem manageable.
+
+But what truly sets him apart is his genuine care for his students' success. He didn't just focus on the academics; he was deeply involved in every aspect of my preparation. From nailing down my test strategies to perfecting my essays and honing my interview skills, Manoj Sir was there every step of the way.
+
+When I started receiving interview calls from ISB, SPJIMR, BITSOM, IMT Ghaziabad, and several IIMs, including the new and baby IIMs, it felt like a dream come true. But I knew it wasn’t just luck—it was the result of consistent guidance and support. Manoj Sir’s approach to mentorship was personal and impactful. He knew exactly how to push me when I needed it and how to support me when I doubted myself.
+
+Looking back, I can't imagine going through this journey without Manoj Sir and CAT2iim. His classes  were more than just lessons—they were the foundation of my success. If you’re serious about your MBA dreams, CAT2IIM is where you need to be.`,
+    photoURL: "/shubham-dwivedi.jpeg",
+  },
+  {
+    name: "Chirag Kaushik",
+    result: "IIM Ranchi 24-26",
+    text: `CAT2IIM has been instrumental in my CAT preparation journey. The structured approach, comprehensive study material, and tailored guidance provided a clear path to success. Mahajan Sir, in particular, played a significant role in my preparation. His insights and guidance not only strengthened my understanding of key concepts but also boosted my confidence for the interview process. Thanks to CAT 2 IIM and Mahajan Sir, I felt well-prepared and confident on exam day, ultimately helping me secure admission to IIM Ranchi. I highly recommend CAT2IIM to anyone serious about their CAT prep.`,
+    photoURL: "chirag-kaushik.jpeg",
+  },
+];
 
 export default function MentorFooter() {
   return (
@@ -29,207 +122,22 @@ export default function MentorFooter() {
       </div>
       <div className="self-end mt-24 w-full max-w-[1376px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col justify-center">
-          <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
-            <div className="h-[410px] flex flex-col items-start px-10 py-14 mx-auto w-full bg-white rounded-3xl border border-indigo-700 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">
-              <div className="text-xl font-medium text-indigo-700">
-                Unnati Mangal
-              </div>
-              <div className="mt-4 text-sm font-semibold text-black">
-                IIM Shillong 23-25
-              </div>
-              <div className="self-stretch mt-3 text-base tracking-wide text-black max-md:max-w-full">
-                <ReadMoreReact
-                  text={`Thank you so much sir for always being a mentor. The journey
-                with you and CAT2IIM has played a great role in my CAT 2022
-                preparation. I could score 97.82%tile and join IIM Shillong just
-                because of your constant guidance, motivation and short tricks.
-                I want to express my sincere appreciation to CAT2IIM and Manoj
-                Sir for the one-to-one mentoring sessions provided during my CAT
-                preparation. The personalized guidance and short tricks shared
-                were incredibly effective in enhancing my problem-solving
-                skills. The phase-wise strategy and structured plan for mocks
-                were particularly beneficial, giving me a clear roadmap to
-                follow and helping me track my progress effectively. This
-                approach not only improved my confidence but also ensured I was
-                well-prepared for each phase of the preparation. Thank you for
-                your unwavering support and for equipping me with the tools I
-                need to succeed in the CAT 2022 & SNAP 2022 (97.84%tile) exam.`}
-                  min={200}
-                  ideal={250}
-                  max={300}
-                  readMoreText={
-                    <span className="cursor-pointer text-blue-500 text-xs">
-                      Read More...
-                    </span>
-                  }
-                />
-              </div>
-              <div className="flex gap-5 justify-between mt-9 max-w-full text-sm text-black w-[357px]">
-                <div>Rated 5/5 stars</div>
-              </div>
-              <div className="flex gap-10 items-start mt-2.5 max-w-full w-[333px]">
-                <div className="flex flex-1 gap-1">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
-            <div className="h-[410px] flex flex-col items-start px-10 py-14 mx-auto w-full bg-white rounded-3xl border border-indigo-700 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">
-              <div className="text-xl font-medium text-indigo-700">
-                Shubham Goel
-              </div>
-              <div className="mt-4 text-sm font-semibold text-black">
-                XLRI Delhi 24-26
-              </div>
-              <div className="self-stretch mt-3 text-base tracking-wide text-black max-md:max-w-full">
-                <ReadMoreReact
-                  text={`I am thrilled to share my journey from CAT preparation to
-                securing a coveted seat at XLRI. 🌟 𝐆𝐫𝐚𝐭𝐢𝐭𝐮𝐝𝐞 𝐭𝐨 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 🙏
-                
-                
-                First and foremost, I want to express my heartfelt gratitude to
-                CAT2IIM, the coaching institute that played a pivotal role in my
-                success. Their unwavering commitment to excellence, personalized
-                guidance, and innovative pedagogy truly set them apart. 🚀 𝐓𝐡𝐞
-                𝐂𝐀𝐓𝟐𝐈𝐈𝐌 𝐏𝐞𝐝𝐚𝐠𝐨𝐠𝐲 📚 CAT2IIM's approach is unique and effective.
-                Here's what stood out for me: 1. 𝐈𝐧𝐝𝐢𝐯𝐢𝐝𝐮𝐚𝐥𝐢𝐳𝐞𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧:
-                CAT2IIM recognizes that every student is different. They tailor
-                their coaching to meet individual needs, ensuring a personalized
-                learning experience. 2. 𝐄𝐱𝐚𝐦 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲: Their expert faculty
-                provided invaluable insights into tackling CAT, SNAP, NMAT, and
-                XAT. Their mock test strategies were spot-on, which helped boost
-                my percentile. 3. 𝐏𝐈 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧: CAT2IIM's interview
-                preparation sessions were game-changers. They helped me build
-                confidence, articulate my thoughts, and present my best self
-                during interviews. 𝐌𝐲 𝐒𝐭𝐞𝐥𝐥𝐚𝐫 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 🌟 - CAT: 98.47 -
-                SNAP: 97.5 - NMAT: 237 - XAT: 95.3 𝐂𝐚𝐥𝐥𝐬 𝐚𝐧𝐝 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐢𝐨𝐧𝐬 📞 I
-                received interview calls from some of the top B-schools: - XLRI
-                - IIFT - MDI - NMIMS - IIM Rohtak And the good news doesn't end
-                there! I converted NMIMS BA, MDI HRM and I’m also waitlisted for
-                IIFT’s Flagship program. 🎓 𝐉𝐨𝐢𝐧 𝐭𝐡𝐞 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 𝐅𝐚𝐦𝐢𝐥𝐲!🤝 CAT2IIM's
-                success stories are built on word-of-mouth recommendations.
-                Let's spread the word and help more aspirants achieve their
-                dreams. 🌈 Thank you, CAT2IIM, for being my guiding light! 🙌`}
-                  min={330}
-                  ideal={340}
-                  max={360}
-                  readMoreText={
-                    <span className="cursor-pointer text-blue-500 text-xs">
-                      Read More...
-                    </span>
-                  }
-                />
-              </div>
-              <div className="flex gap-5 justify-between mt-9 max-w-full text-sm text-black w-[357px]">
-                <div>Rated 5/5 stars</div>
-              </div>
-              <div className="flex gap-10 items-start mt-2 max-w-full w-[333px]">
-                <div className="flex flex-1 gap-1">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/0523316aea032c2427be9a8da299ae19f210504402be072fddb54347ef4cf44a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                    className="object-contain shrink-0 w-3.5 aspect-[1.08]"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+          {testimonials.slice(0, 2).map((testimonial) => (
+            <Testimonial {...testimonial} />
+          ))}
         </div>
-        <div className="mt-8 flex justify-end items-center cursor-pointer">
+        <a
+          href="/results"
+          className="mt-8 flex justify-end items-center cursor-pointer"
+        >
           See all testimonials
           <img
             className="ml-2"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/376b86ae6715805320f789525e320d8d6afd521a9f6f25557c2323cf2ee8fab9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
           />
-        </div>
+        </a>
       </div>
-      <div className="flex flex-wrap gap-5 justify-between items-start self-stretch px-20 pt-16 pb-10 mt-44 w-full bg-indigo-700 max-md:px-5 max-md:mt-10 max-md:max-w-full">
-        <div className="flex flex-col mt-5">
-          <img
-            loading="lazy"
-            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bec5e4b93bb49c6de436aa539ebfd95503b737f39d346a9c6cd784cdc98df138?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-            className="object-contain aspect-[1.23] w-[79px]"
-          />
-          <div className="flex gap-10 mt-16 max-md:mt-10 items-center">
-            <div className="self-start text-sm font-light tracking-wide text-white">
-              Follow us on
-            </div>
-            <div className="flex flex-1 gap-3">
-              <a href="https://www.facebook.com/cat2iimbymm" target="_blank">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b742fd58b2ce329885186e55bf23c0ca67d44a9de7beb277e94437f8842f6cc?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                  className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/company/cat2iim-by-manoj-mahajan/"
-                target="_blank"
-              >
-                <img
-                  loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                  className="object-contain shrink-0 rounded-full aspect-square bg-zinc-50 fill-zinc-50 h-[29px] w-[29px]"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col items-start text-sm font-light text-zinc-100">
-          <div>Home</div>
-          <div className="mt-4">About Us</div>
-          <div className="mt-4">Results</div>
-          <div className="self-stretch mt-4 max-md:mr-2">
-            Achiever’s Message
-          </div>
-          <div className="self-stretch mt-4">Super 60 New Batch</div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }

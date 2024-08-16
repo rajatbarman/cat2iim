@@ -123,7 +123,7 @@ export default function MentorFooter() {
       <div className="self-end mt-24 w-full max-w-[1376px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col justify-center">
           {testimonials.slice(0, 2).map((testimonial) => (
-            <Testimonial {...testimonial} />
+            <Testimonial key={testimonial.name} {...testimonial} />
           ))}
         </div>
         <a

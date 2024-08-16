@@ -32,6 +32,11 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
       isHighlighted: true,
       href: "/new-batch",
     },
+    {
+      text: "Contact Us",
+      isSemibold: activeMenuItem === "contact",
+      href: "/contact",
+    },
   ];
 
   return (
@@ -48,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
             key={index}
             href={item.href}
             className={`self-stretch my-auto ml-10 ${
-              item.isSemibold ? "font-semibold" : ""
+              item.isSemibold ? "font-semibold  border-b-2 border-black" : ""
             } ${item.isHighlighted ? "text-indigo-700" : ""} ${
               item.text.includes(" ") ? "basis-auto" : ""
             }`}

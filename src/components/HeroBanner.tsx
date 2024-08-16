@@ -24,7 +24,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ heroImage }) => {
               getting into top B-Schools.
             </p>
             <a
-              href="#contact"
+              href="/contact"
               className="flex gap-2.5 justify-center items-center self-start px-8 py-3 mt-7 text-xs text-center bg-rose-500 rounded-md max-md:px-5"
             >
               <span className="self-stretch my-auto font-light tracking-normal">

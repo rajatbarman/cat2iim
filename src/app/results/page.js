@@ -19,7 +19,7 @@ export default function Results() {
       </h1>
       <div className="flex flex-wrap gap-5 justify-center mt-12">
         {testimonials.map((testimonial) => (
-          <Testimonial {...testimonial} />
+          <Testimonial key={testimonial.name} {...testimonial} />
         ))}
       </div>
       <Footer />

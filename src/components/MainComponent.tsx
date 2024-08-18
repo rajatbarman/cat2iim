@@ -12,7 +12,7 @@ const MainComponent: React.FC = () => {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/54fe56aa9821b6b7d5baa4c5ffc311129d73f85ba6b9dd90d4788b16f6ea7e0f?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9",
       title: "Comprehensive Course",
       description:
-        "Master every aspect of the CAT with our all-inclusive, in-depth curriculum.",
+        "Master every aspect of the CAT with our all-inclusive & in-depth curriculum.",
     },
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/ccef8cd6a0c1558782896c77cd87f0b3fef6842e86466310331bb0f6123a3d4d?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9",
@@ -22,7 +22,7 @@ const MainComponent: React.FC = () => {
     },
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/ccef8cd6a0c1558782896c77cd87f0b3fef6842e86466310331bb0f6123a3d4d?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9",
-      title: "1-on-1 Personalized Mentoring Sessions",
+      title: "1-on-1 Personalised Mentoring Sessions",
       description:
         "Receive customized guidance and support tailored to your unique needs.",
     },

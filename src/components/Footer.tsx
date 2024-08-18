@@ -13,10 +13,34 @@ export default function Footer() {
             Follow us on
           </div>
           <div className="flex flex-1 gap-3">
+            <a
+              href="https://www.youtube.com/@CAT2IIMByManojMahajan"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                src="/youtube.svg"
+                className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
+              />
+            </a>
             <a href="https://www.facebook.com/cat2iimbymm" target="_blank">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b742fd58b2ce329885186e55bf23c0ca67d44a9de7beb277e94437f8842f6cc?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
+                src="/facebook.svg"
+                className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
+              />
+            </a>
+            <a href="https://www.instagram.com/cat2iimbymm/" target="_blank">
+              <img
+                loading="lazy"
+                src="/instagram.svg"
+                className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
+              />
+            </a>
+            <a href="https://t.me/CAT2IIM_Information" target="_blank">
+              <img
+                loading="lazy"
+                src="/telegram.svg"
                 className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
               />
             </a>
@@ -26,8 +50,8 @@ export default function Footer() {
             >
               <img
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/cc01f7e87843ab41ddcc1054e00ebfdbec402778bcef503140831864d9a8b7f9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-                className="object-contain shrink-0 rounded-full aspect-square bg-zinc-50 fill-zinc-50 h-[29px] w-[29px]"
+                srcSet="/linkedin.svg"
+                className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
               />
             </a>
           </div>

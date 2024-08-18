@@ -16,7 +16,7 @@ export const testimonials = [
                 because of your constant guidance, motivation and short tricks.
                 I want to express my sincere appreciation to CAT2IIM and Manoj
                 Sir for the one-to-one mentoring sessions provided during my CAT
-                preparation. The personalized guidance and short tricks shared
+                preparation. The personalised guidance and short tricks shared
                 were incredibly effective in enhancing my problem-solving
                 skills. The phase-wise strategy and structured plan for mocks
                 were particularly beneficial, giving me a clear roadmap to
@@ -34,12 +34,12 @@ export const testimonials = [
                 securing a coveted seat at XLRI. 🌟 𝐆𝐫𝐚𝐭𝐢𝐭𝐮𝐝𝐞 𝐭𝐨 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 🙏
                 First and foremost, I want to express my heartfelt gratitude to
                 CAT2IIM, the coaching institute that played a pivotal role in my
-                success. Their unwavering commitment to excellence, personalized
+                success. Their unwavering commitment to excellence, personalised
                 guidance, and innovative pedagogy truly set them apart. 🚀 𝐓𝐡𝐞
                 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 𝐏𝐞𝐝𝐚𝐠𝐨𝐠𝐲 📚 CAT2IIM's approach is unique and effective.
                 Here's what stood out for me: 1. 𝐈𝐧𝐝𝐢𝐯𝐢𝐝𝐮𝐚𝐥𝐢𝐳𝐞𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧:
                 CAT2IIM recognizes that every student is different. They tailor
-                their coaching to meet individual needs, ensuring a personalized
+                their coaching to meet individual needs, ensuring a personalised
                 learning experience. 2. 𝐄𝐱𝐚𝐦 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲: Their expert faculty
                 provided invaluable insights into tackling CAT, SNAP, NMAT, and
                 XAT. Their mock test strategies were spot-on, which helped boost
@@ -115,10 +115,11 @@ export default function MentorFooter() {
       <div className="text-base font-semibold leading-8 text-center text-zinc-800">
         “Not Just An Educator, But A Mentor”
       </div>
-      <div className="mt-10 text-xl font-semibold leading-8 text-center text-indigo-700 w-[613px] max-md:max-w-full">
-        With over 20 years of teaching experience with Career Launcher, TIME,
-        Tathagat and Unacademy, Manoj sir has been teaching CAT2IIM for more
-        than 2 years now with excellent results for his students.
+      <div className="mt-10 px-4 text-xl font-semibold leading-8 text-center text-indigo-700 w-[613px] max-md:max-w-full">
+        Quant & LRDI Trainer with over 20 years of teaching experience with
+        Career Launcher, TIME, Tathagat and Unacademy, Manoj sir has been
+        teaching at CAT2IIM for more than 2 years now with excellent results for
+        his students.
       </div>
       <div className="self-end mt-24 w-full max-w-[1376px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col justify-center">
@@ -128,9 +129,9 @@ export default function MentorFooter() {
         </div>
         <a
           href="/results"
-          className="mt-8 flex justify-end items-center cursor-pointer"
+          className="mt-8 flex justify-end items-center cursor-pointer pr-2"
         >
-          See all testimonials
+          View all testimonials
           <img
             className="ml-2"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/376b86ae6715805320f789525e320d8d6afd521a9f6f25557c2323cf2ee8fab9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"

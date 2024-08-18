@@ -8,14 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +22,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* To improve bullets on slide */
+.rsis-container ~ div button {
+  width: 12px !important;
+  height: 12px !important;
+  box-shadow: 1px 0px 1px 0px rgba(0,0,0,.5) !important;
 }

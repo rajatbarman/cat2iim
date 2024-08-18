@@ -12,7 +12,7 @@ export default function NewBatch() {
       <iframe
         width="961"
         height="541"
-        className="m-auto mt-8"
+        className="m-auto mt-8 max-md:w-full max-md:px-4"
         src="https://www.youtube.com/embed/W4jm3h3-TsM"
         title="CAT 25 &amp; OMETs Super 60 Batch| Start Date 31st Aug I#iimcat #cat25  #mbaprep #iim #catprep #cat2025"
         frameborder="0"

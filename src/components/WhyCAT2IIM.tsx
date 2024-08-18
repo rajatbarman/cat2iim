@@ -12,7 +12,7 @@ type WhyCAT2IIMProps = {
 
 const WhyCAT2IIM: React.FC<WhyCAT2IIMProps> = ({ statIcon, features }) => {
   return (
-    <section className="flex justify-between mt-16">
+    <section className="flex justify-between mt-16 max-md:flex-col max-md:w-full max-md:items-center max-md:gap-12">
       <StatCard
         icon={statIcon}
         stats={[
@@ -20,7 +20,7 @@ const WhyCAT2IIM: React.FC<WhyCAT2IIMProps> = ({ statIcon, features }) => {
           { value: "160+", label: "videos" },
         ]}
       />
-      <div className="max-w-[45%]">
+      <div className="max-w-[45%] max-md:max-w-[90%]">
         <h2 className="self-center ml-5 text-xl text-indigo-700">
           Why CAT2IIM?
         </h2>

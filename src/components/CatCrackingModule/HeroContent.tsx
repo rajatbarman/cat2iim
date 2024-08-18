@@ -9,9 +9,9 @@ const HeroContent: React.FC<HeroContentProps> = () => {
   return (
     <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
       <h1 className="self-stretch my-auto text-2xl font-semibold leading-8 text-center text-indigo-700 max-md:mt-10 max-md:max-w-full">
-        Cracking CAT is no more a dream. Kill the CAT / XAT / SNAP/ NMAT and get
-        into <br />
-        Top B-schools with right mentoring.
+        Cracking CAT is no longer just a dream. Ace the CAT / XAT / NMAT / SNAP
+        and get into a <br />
+        Top B-school with the right mentoring.
       </h1>
     </div>
   );

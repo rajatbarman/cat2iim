@@ -13,7 +13,7 @@ const StatCard: React.FC<StatCardProps> = ({ icon, stats }) => {
     <a
       target="_blank"
       href="https://www.youtube.com/@CAT2IIMByManojMahajan"
-      className="flex flex-col self-start mt-6 items-center flex-1"
+      className="flex flex-col self-start mt-6 items-center flex-1 max-md:m-auto"
     >
       <div className="flex flex-col justify-center items-center px-9 bg-red-600 h-[172px] w-[172px] max-md:px-5">
         <img

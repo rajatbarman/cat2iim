@@ -51,12 +51,14 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
 
   return (
     <header className="flex gap-10 items-center self-start text-sm font-light tracking-tight text-center text-black w-full">
-      <img
-        loading="lazy"
-        src={logo}
-        alt="Company Logo"
-        className="object-contain shrink-0 self-stretch max-w-full aspect-[1.26] w-[152px]"
-      />
+      <a href="/">
+        <img
+          loading="lazy"
+          src={logo}
+          alt="Company Logo"
+          className="object-contain shrink-0 self-stretch max-w-full aspect-[1.26] w-[152px]"
+        />
+      </a>
       <nav className="max-md:hidden">
         {navItems.map((item, index) => (
           <a

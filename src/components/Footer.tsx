@@ -65,7 +65,9 @@ export default function Footer() {
         <a href="/results" className="mt-4">
           Results
         </a>
-        <div className="self-stretch mt-4 max-md:mr-2">Achiever’s Message</div>
+        <a href="/achievers" className="mt-4">
+          Achiever’s Message
+        </a>
         <a href="/new-batch" className="self-stretch mt-4">
           Super 60 New Batch
         </a>

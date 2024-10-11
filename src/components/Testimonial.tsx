@@ -5,7 +5,7 @@ import ReadMoreReact from "read-more-react";
 export default function Testimonial({ name, result, text, photoURL }) {
   return (
     <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full relative max-md:px-2">
-      <div className="min-h-[420px] flex flex-col items-start px-10 py-14 mx-auto w-full bg-white rounded-3xl border border-indigo-700 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:rounded-lg">
+      <div className="min-h-[420px] flex flex-col items-start px-10 py-14 mx-auto w-full bg-white rounded-3xl border border-indigo-700 border-solid max-md:px-5 max-md:max-w-full max-md:rounded-lg">
         <div className="flex justify-between w-full">
           <div className="flex-col">
             <div className="text-xl font-medium text-indigo-700">{name}</div>

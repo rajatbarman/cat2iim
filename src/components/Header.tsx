@@ -78,7 +78,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
         <Dialog>
           <DialogTrigger>
             <img
-              width="40"
+              width="32"
               className="cursor-pointer ml-auto hidden max-md:block"
               src="/hamburger.svg"
               alt="Menu"
@@ -87,7 +87,6 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
           <DialogOverlay />
           <DialogContent className="p-4 w-full bg-white h-full shadow-lg">
             <DialogDescription className="h-full mt-10">
-              <h2 className="text-xl text-black">Navigation</h2>
               <div className="flex flex-col h-full mt-4">
                 {navItems.map((item, index) => (
                   <a

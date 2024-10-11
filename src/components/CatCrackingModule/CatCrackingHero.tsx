@@ -9,9 +9,9 @@ interface CatCrackingHeroProps {}
 
 const CatCrackingHero: React.FC<CatCrackingHeroProps> = () => {
   return (
-    <section className="flex flex-col rounded-none mt-16">
+    <section className="flex flex-col rounded-none mt-16 max-md:mt-10">
       <div className="flex flex-col justify-center py-px w-full bg-zinc-100 max-md:max-w-full">
-        <div className="px-20 py-20 max-md:px-5 max-md:max-w-full">
+        <div className="px-20 py-20 max-md:px-5 max-md:py-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">
             <HeroContent />
             <HeroImage />

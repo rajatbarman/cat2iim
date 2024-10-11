@@ -3,7 +3,7 @@ import CatCrackingHero from "@/components/CatCrackingModule/CatCrackingHero";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MainComponent from "@/components/MainComponent";
-import { testimonials } from "@/components/MentorFooter";
+import { allTestimonials as testimonials } from "@/components/MentorFooter";
 import Testimonial from "@/components/Testimonial";
 import Image from "next/image";
 

@@ -8,7 +8,7 @@ interface HeroContentProps {}
 const HeroContent: React.FC<HeroContentProps> = () => {
   return (
     <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-      <h1 className="self-stretch my-auto text-2xl font-semibold leading-8 text-center text-indigo-700 max-md:mt-10 max-md:max-w-full">
+      <h1 className="self-stretch my-auto text-2xl max-md:text-xl max-md:leading-[1.5] font-semibold leading-8 text-center text-indigo-700 max-md:mt-0 max-md:max-w-full">
         Cracking CAT is no longer just a dream. Ace the CAT / XAT / NMAT / SNAP
         and get into a <br />
         Top B-school with the right mentoring.

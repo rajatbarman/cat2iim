@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import AchieversVideos from "@/components/AchieversVideos/AchieversVideos";
 
 const videos = [
   {
@@ -8,12 +9,40 @@ const videos = [
     id: "wetajf4yWrg",
   },
   {
-    name: "Shubham",
+    name: "Shubham Goel",
     id: "kbbe0coGLEg",
   },
   {
     name: "Insha",
     id: "EqtDJeQwuPM",
+  },
+  {
+    name: "Unnati Mangal",
+    id: "5OJNNmd4_Bs",
+  },
+  {
+    name: "Dr. Purnopama",
+    id: "1tnoYNUKipA",
+  },
+  {
+    name: "Sourav Ranjan",
+    id: "QEp1kT_nXv0",
+  },
+  {
+    name: "Sanjay Jaiswal",
+    id: "oZ83d6ESC0Q",
+  },
+  {
+    name: "Shubham Dwivedi",
+    id: "7HgaNcbjFlY",
+  },
+  {
+    name: "Anjali Kapoor",
+    id: "767Jcs9EHIE",
+  },
+  {
+    name: "Syed Saad Ali",
+    id: "0wlEgVgH6Oo",
   },
 ];
 
@@ -24,27 +53,10 @@ export default function Achievers() {
         activeMenuItem="achievers"
         logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c54ea12a1dd71538b8d7eb0bcf4c1326c90bc15b7296df6787380ae5698836bd?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
       />
-      <h1 className="text-3xl text-center mt-4">
+      <h1 className="text-3xl text-center mt-4 mb-10">
         What students say about us...
       </h1>
-      <div className="flex max-md:flex-col gap-6 items-center justify-center">
-        {videos.map((video) => (
-          <div className="flex-col" key={video.id}>
-            <iframe
-              width="315"
-              height="541"
-              className="m-auto mt-8"
-              src={`https://www.youtube.com/embed/${video.id}`}
-              title="CAT 25 &amp; OMETs Super 60 Batch| Start Date 31st Aug I#iimcat #cat25  #mbaprep #iim #catprep #cat2025"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <div className="mt-2 text-xl text-center">{video.name}</div>
-          </div>
-        ))}
-      </div>
+      <AchieversVideos />
       <Footer />
     </section>
   );

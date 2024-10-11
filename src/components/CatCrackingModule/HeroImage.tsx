@@ -10,7 +10,7 @@ const HeroImage: React.FC<HeroImageProps> = () => {
     <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
       <img
         loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d886c7f4615f9e8dba263a8a7ae3821e6f1a7a0ddbcdd0ddcaf203bb8866d9a?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
+        src="./female-success.webp"
         alt="CAT Cracking illustration"
         className="object-contain grow w-full rounded-lg aspect-[1.95] max-md:mt-10 max-md:max-w-full"
       />

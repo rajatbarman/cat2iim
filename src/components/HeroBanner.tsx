@@ -3,7 +3,8 @@
  */
 "use client";
 import React, { useEffect, useState } from "react";
-import SimpleImageSlider from "react-simple-image-slider";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 type HeroBannerProps = {
   heroImage: string;
@@ -16,23 +17,28 @@ const images = [
 
 const HeroBanner: React.FC<HeroBannerProps> = ({ heroImage }) => {
   const [imageURL, setImageURL] = useState("/achievers-2023.jpeg");
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setImageURL((imageURL) => {
-        console.log("asdasdd");
-        if (imageURL === "/achievers-2023.jpeg") {
-          return "/achievers-2022.jpeg";
-        }
-        return "/achievers-2023.jpeg";
-      });
-    }, 4000);
-    return () => clearInterval(intervalId);
-  }, []);
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setImageURL((imageURL) => {
+  //       console.log("asdasdd");
+  //       if (imageURL === "/achievers-2023.jpeg") {
+  //         return "/achievers-2022.jpeg";
+  //       }
+  //       return "/achievers-2023.jpeg";
+  //     });
+  //   }, 4000);
+  //   return () => clearInterval(intervalId);
+  // }, []);
+
+  const handleSlideClick = (imageIndex, item) => {
+    console.log(imageIndex, item);
+  };
+
   return (
-    <section className="py-20 max-md:rounded-none pr-7 pl-16 mt-2.5 w-full bg-indigo-700 rounded-3xl max-md:px-5 max-md:max-w-full">
+    <section className="py-20 max-md:py-10 max-md:rounded-none pr-7 pl-16 mt-2.5 w-full bg-indigo-700 rounded-3xl max-md:px-5 max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col w-full text-white max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col w-full text-white max-md:max-w-full">
             <h1 className="text-5xl font-light text-zinc-50 max-md:max-w-full max-md:text-4xl">
               Think Top B-school, Think CAT2IIM
             </h1>
@@ -58,12 +64,29 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ heroImage }) => {
         </div>
         <div className="flex flex-col ml-5 w-[55%] max-md:ml-0 max-md:w-full">
           <div className="max-md:block">
-            <img
-              loading="lazy"
-              src={imageURL}
-              alt="Students studying together"
-              className="object-contain self-stretch my-auto w-full aspect-[1.77] max-md:mt-10 max-md:max-w-full"
-            />
+            <Carousel
+              autoPlay
+              infiniteLoop
+              interval={5000}
+              showStatus={false}
+              showThumbs={false}
+              onClickItem={handleSlideClick}
+            >
+              <div>
+                <img
+                  src={"/achievers-2023.jpeg"}
+                  alt="Students studying together"
+                  className="object-contain self-stretch my-auto w-full aspect-[1.77] max-md:mt-10 max-md:max-w-full"
+                />
+              </div>
+              <div>
+                <img
+                  src={"/achievers-2022.jpeg"}
+                  alt="Students studying together"
+                  className="object-contain self-stretch my-auto w-full aspect-[1.77] max-md:mt-10 max-md:max-w-full"
+                />
+              </div>
+            </Carousel>
           </div>
         </div>
       </div>

@@ -6,19 +6,18 @@ export default function NewBatch() {
   return (
     <section className="max-w-[1280px] m-auto">
       <Header
-        activeMenuItem="new-batch"
+        activeMenuItem="updates"
         logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c54ea12a1dd71538b8d7eb0bcf4c1326c90bc15b7296df6787380ae5698836bd?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
       />
       <iframe
-        width="961"
-        height="541"
-        className="m-auto mt-8 max-md:w-full max-md:px-4"
-        src="https://www.youtube.com/embed/W4jm3h3-TsM"
-        title="CAT 25 &amp; OMETs Super 60 Batch| Start Date 31st Aug I#iimcat #cat25  #mbaprep #iim #catprep #cat2025"
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcat2iimbymm&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+        height="500"
+        width="500"
+        style={{ border: "none", overflow: "hidden" }}
+        scrolling="no"
         frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        allowFullScreen
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
       ></iframe>
       <Footer />
     </section>

@@ -5,9 +5,7 @@ import React from "react";
 import HeroContent from "./HeroContent";
 import HeroImage from "./HeroImage";
 
-interface CatCrackingHeroProps {}
-
-const CatCrackingHero: React.FC<CatCrackingHeroProps> = () => {
+const CatCrackingHero = () => {
   return (
     <section className="flex flex-col rounded-none mt-16 max-md:mt-10">
       <div className="flex flex-col justify-center py-px w-full bg-zinc-100 max-md:max-w-full">

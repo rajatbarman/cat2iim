@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
       href: "/achievers",
     },
     {
-      text: "Super 60 New Batch",
+      text: "New Batch",
       isSemibold: activeMenuItem === "new-batch",
       isHighlighted: true,
       href: "/new-batch",
@@ -47,7 +47,19 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
       isSemibold: activeMenuItem === "contact",
       href: "/contact",
     },
+    {
+      text: "FB Updates",
+      target: "_blank",
+      href: "https://www.facebook.com/cat2iimbymm",
+    },
   ];
+
+  const isExternalLink = (url) => {
+    if (url.includes("http://") || url.includes("https://")) {
+      return true;
+    }
+    return false;
+  };
 
   return (
     <header className="flex gap-10 items-center self-start text-sm font-light tracking-tight text-center text-black w-full">
@@ -64,6 +76,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
           <a
             key={index}
             href={item.href}
+            target={isExternalLink(item.href) ? "_blank" : "_self"}
             className={`self-stretch my-auto ml-10 ${
               item.isSemibold ? "font-semibold  border-b-2 border-black" : ""
             } ${item.isHighlighted ? "text-indigo-700" : ""} ${

@@ -38,13 +38,18 @@ export const allTestimonials = [
                 success. Their unwavering commitment to excellence, personalised
                 guidance, and innovative pedagogy truly set them apart. 🚀 𝐓𝐡𝐞
                 𝐂𝐀𝐓𝟐𝐈𝐈𝐌 𝐏𝐞𝐝𝐚𝐠𝐨𝐠𝐲 📚 CAT2IIM's approach is unique and effective.
-                Here's what stood out for me: 1. 𝐈𝐧𝐝𝐢𝐯𝐢𝐝𝐮𝐚𝐥𝐢𝐳𝐞𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧:
+                Here's what stood out for me: 
+                
+                1. 𝐈𝐧𝐝𝐢𝐯𝐢𝐝𝐮𝐚𝐥𝐢𝐳𝐞𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧:
                 CAT2IIM recognizes that every student is different. They tailor
                 their coaching to meet individual needs, ensuring a personalised
-                learning experience. 2. 𝐄𝐱𝐚𝐦 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲: Their expert faculty
+                learning experience. 
+                
+                2. 𝐄𝐱𝐚𝐦 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲: Their expert faculty
                 provided invaluable insights into tackling CAT, SNAP, NMAT, and
                 XAT. Their mock test strategies were spot-on, which helped boost
-                my percentile. 3. 𝐏𝐈 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧: CAT2IIM's interview
+                my percentile. 
+                3. 𝐏𝐈 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧: CAT2IIM's interview
                 preparation sessions were game-changers. They helped me build
                 confidence, articulate my thoughts, and present my best self
                 during interviews. 𝐌𝐲 𝐒𝐭𝐞𝐥𝐥𝐚𝐫 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 🌟 - CAT: 98.47 -
@@ -97,6 +102,93 @@ Looking back, I can't imagine going through this journey without Manoj Sir and C
     text: `CAT2IIM has been instrumental in my CAT preparation journey. The structured approach, comprehensive study material, and tailored guidance provided a clear path to success. Mahajan Sir, in particular, played a significant role in my preparation. His insights and guidance not only strengthened my understanding of key concepts but also boosted my confidence for the interview process. Thanks to CAT 2 IIM and Mahajan Sir, I felt well-prepared and confident on exam day, ultimately helping me secure admission to IIM Ranchi. I highly recommend CAT2IIM to anyone serious about their CAT prep.`,
     photoURL: "chirag-kaushik.jpeg",
   },
+  {
+    name: "Sanjay Jaiswal",
+    result: "IIM Indore  23-25",
+    text: `
+      I owe my success in converting IIM Indore & other Top B-schools to CAT2IIM and the guidance of Manoj Mahajan Sir. His teaching style is engaging and  his tips & tricks made learning much easier. He also personally mentored me, helping me become an achiever.
+    `,
+    photoURL: "./sanjay-jaiswal.jpeg",
+  },
+  {
+    name: "Insha",
+    result: "Converted SIBM B",
+    text: `
+      I would like to thank CAT2IIM for mentoring me throughout the CAT journey as the experience was nothing short of transformative. From the outset, CAT2IIM teaches amazing tricks and shortcuts significantly improving my problem-solving skills and efficiency.
+
+The one-on-one mentoring sessions were particularly valuable. The personalized approach to exam and interview preparation, including detailed mock interviews, was instrumental in honing my skills and boosting my confidence. The guidance provided was immaculate—strategically tailored to address my strengths and weaknesses, ensuring that I was well-prepared for every challenge.
+
+Thanks to CAT2IIM unwavering support and expert advice, I successfully got my offer from SIBM Bangalore. Their thorough guidance throughout the journey made a significant difference, and I genuinely felt supported at every step. I highly recommend CAT2IIM to anyone serious about excelling in their CAT & OMETs  journey and achieving their goals.
+    `,
+    photoURL: "./insha.jpeg",
+  },
+  {
+    name: "Anjali Kapoor",
+    result: "IIM Lucknow (IPMX) 23 -24",
+    text: `Manoj sir was a great help in quant preparation. He made complex concepts easy to understand and was always patient and supportive. Thanks to his guidance, I was able to improve my Quant skills significantly and get through IIM Lucknow`,
+    photoURL: "./anjali-kapoor.jpeg",
+  },
+  {
+    name: "Saad",
+    result: "Converted DSE",
+    text: `When I first joined CAT2IIM by Manoj Mahajan, I was a CAT candidate in a poor situation as I scored only 43 percentile in CAT 2022. Although I had personalized strategies regarding the preparation of the exam, Manoj Sir changed my strategy completely for the better. I believe that his tricks/shortcuts and the DPACTS(LRDI Strategy) mantra were instrumental in helping me score an impressive mark of 94.64 percentile in CAT 23. Actually, it was all possible because CAT2IIM offered me the attention I needed and taught me the most effective strategies. In my case, I would say Manoj Sir's coaching should not be missed if the candidate is serious about cracking CAT and getting the right management education.
+Because of Manoj Sir's guidance, I was able to get calls from colleges like IIT Roorkee, DBE, DSE, DFS & JMI and converted MBA at Delhi School of Economics (DSE) & Jamia Millia Islamia (JMI). This success in securing admissions to prestigious institutions is a testament to the effectiveness of CAT2IIM's preparation program and Manoj Sir's mentorship.`,
+    photoURL: "./saad.jpeg",
+  },
+  {
+    name: "Harshit",
+    result: "GIM 23-25",
+    text: "",
+    photoURL: "./harshit.jpeg",
+  },
+  {
+    name: "Kanushka",
+    result: "Great Lakes Gurgaon ( PGPM ) 24 -25",
+    text: "",
+    photoURL: "./kanushka.jpeg",
+  },
+  {
+    name: "Karen",
+    result: "IIFT call 2022",
+    text: "",
+    photoURL: "./karen.jpeg",
+  },
+  {
+    name: "Sahil",
+    result: "SIBM Pune & SCMHRD call 2022",
+    text: "",
+    photoURL: "./sahil.jpeg",
+  },
+  {
+    name: "Sushma",
+    result: "NMIMS Mumbai call 2023",
+    text: "",
+    photoURL: "./sushma.jpeg",
+  },
+  {
+    name: "Aditya",
+    result: "IIM CAP Call 2023",
+    text: "",
+    photoURL: "./aditya.jpeg",
+  },
+  {
+    name: "Bharat",
+    result: "IIM Bodh Gaya Call 2023",
+    text: "",
+    photoURL: "./bharat.jpeg",
+  },
+  {
+    name: "Avi",
+    result: "IIM CAP Call 2022",
+    text: "",
+    photoURL: "./avi.jpeg",
+  },
+  {
+    name: "Aditya",
+    result: "IIM CAP Call 2023",
+    text: "",
+    photoURL: "./aditya.jpeg",
+  },
 ];
 
 export default function MentorFooter() {
@@ -105,6 +197,16 @@ export default function MentorFooter() {
   }, [allTestimonials]);
   return (
     <div className="flex flex-col items-center rounded-none mt-16 max-md:mt-10">
+      {/* <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcat2iimbymm&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+        width="340"
+        height="500"
+        style={{ border: "none", overflow: "hidden" }}
+        scrolling="no"
+        frameBorder="0"
+        allowFullScreen
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+      ></iframe> */}
       <div className="z-10 -mt-1.5 text-2xl font-semibold text-center text-black">
         Meet the Mentor
       </div>
@@ -140,7 +242,7 @@ export default function MentorFooter() {
           />
         </a>
         <div className="flex gap-5 max-md:flex-col justify-center mt-20 max-md:mt-10">
-          {testimonials.slice(0, 2).map((testimonial) => (
+          {testimonials.map((testimonial) => (
             <Testimonial key={testimonial.name} {...testimonial} />
           ))}
         </div>

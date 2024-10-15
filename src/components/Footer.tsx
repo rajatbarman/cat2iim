@@ -69,7 +69,7 @@ export default function Footer() {
           Achiever’s Message
         </a>
         <a href="/new-batch" className="self-stretch mt-4">
-          Super 60 New Batch
+          New Batch
         </a>
       </div>
     </footer>

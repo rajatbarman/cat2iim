@@ -183,12 +183,6 @@ Because of Manoj Sir's guidance, I was able to get calls from colleges like IIT 
     text: "",
     photoURL: "./avi.jpeg",
   },
-  {
-    name: "Aditya",
-    result: "IIM CAP Call 2023",
-    text: "",
-    photoURL: "./aditya.jpeg",
-  },
 ];
 
 export default function MentorFooter() {

@@ -40,14 +40,17 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ heroImage }) => {
         <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col w-full text-white max-md:max-w-full">
             <h1 className="text-5xl font-light text-zinc-50 max-md:max-w-full max-md:text-4xl">
-              Think Top B-school, Think CAT2IIM
+              Think Top <span className="whitespace-nowrap">B-school</span>,
+              Think CAT2IIM
             </h1>
             <p className="mt-10 mr-8 text-2xl font-light max-md:mr-2.5 max-md:max-w-full">
-              1 out of every 2 CAT2IIM students receives top B-School call
+              1 out of every 2 CAT2IIM students receives top{" "}
+              <span className="whitespace-nowrap">B-School</span> call
             </p>
             <p className="mt-14 text-base font-light leading-5 max-md:mt-10 max-md:mr-1 max-md:max-w-full leading-6">
               We Offer Personalised Learning Experience through Online classes
-              for CAT/XAT/NMAT/SNAP to get into top B-Schools.
+              for CAT/XAT/NMAT/SNAP to get into top{" "}
+              <span className="whitespace-nowrap">B-Schools</span>.
             </p>
             <a
               href="https://forms.gle/wcGMo1nHRn1FpDGe8"

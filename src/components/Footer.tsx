@@ -80,7 +80,7 @@ export default function Footer() {
           Courses
         </a>
         <a href="/achievers" className="mt-4">
-          Achiever's Message
+          Achiever&apos;s Message
         </a>
         <a href="/new-batch" className="self-stretch mt-4">
           New Batch

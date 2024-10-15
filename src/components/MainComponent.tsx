@@ -44,10 +44,7 @@ const MainComponent: React.FC<MainComponentProps> = ({
 
   return (
     <main className="flex flex-col rounded-none">
-      <Header
-        activeMenuItem="home"
-        logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c54ea12a1dd71538b8d7eb0bcf4c1326c90bc15b7296df6787380ae5698836bd?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-      />
+      <Header activeMenuItem="home" logo="./cat2iim.png" />
       <HeroBanner heroImage="/achievers-2023.jpeg" />
       <WhyCAT2IIM
         videoCount={videoCount}

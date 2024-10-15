@@ -53,24 +53,21 @@ const courses = [
 export default function Courses() {
   return (
     <section className="max-w-[1280px] m-auto">
-      <Header
-        activeMenuItem="courses"
-        logo="https://cdn.builder.io/api/v1/image/assets/TEMP/c54ea12a1dd71538b8d7eb0bcf4c1326c90bc15b7296df6787380ae5698836bd?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-      />
+      <Header activeMenuItem="courses" logo="./cat2iim.png" />
       <section className="max-w-[720px] m-auto">
         <h1 className="text-2xl mt-4 text-center mb-6 border-y-2 border-solid border-rose-500 py-2 ">
           Offered Courses
         </h1>
         {courses.map((course) => {
           return (
-            <div className="p-5">
+            <div className="p-5" key={course.title}>
               <div className="flex items-center">
                 <RxRocket className="text-rose-500 text-xl shrink-0 mr-2" />
                 <h2 className="text-xl">{course.title}</h2>
               </div>
               <ul className="pl-6 pt-2">
-                {course.features.map((feature) => (
-                  <div className="flex items-center gap-1">
+                {course.features.map((feature, index) => (
+                  <div className="flex items-center gap-1" key={index}>
                     <li className="p-2">👉🏼 {feature.text}</li>
                   </div>
                 ))}

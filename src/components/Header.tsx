@@ -32,6 +32,11 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
       href: "/results",
     },
     {
+      text: "Courses",
+      isSemibold: activeMenuItem === "courses",
+      href: "/courses",
+    },
+    {
       text: "Achiever's Message",
       isSemibold: activeMenuItem === "achievers",
       href: "/achievers",
@@ -39,8 +44,8 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
     {
       text: "New Batch",
       isSemibold: activeMenuItem === "new-batch",
-      isHighlighted: true,
-      href: "/new-batch",
+      // isHighlighted: true,
+      href: "https://www.youtube.com/@CAT2IIMByManojMahajan",
     },
     {
       text: "Contact Us",
@@ -48,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
       href: "/contact",
     },
     {
-      text: "FB Updates",
+      text: "Recent Updates",
       target: "_blank",
       href: "https://www.facebook.com/cat2iimbymm",
     },

@@ -6,19 +6,27 @@ import Header from "./Header";
 import HeroBanner from "./HeroBanner";
 import WhyCAT2IIM from "./WhyCAT2IIM";
 
-const MainComponent: React.FC = () => {
+type MainComponentProps = {
+  viewCount: string;
+  videoCount: string;
+};
+
+const MainComponent: React.FC<MainComponentProps> = ({
+  viewCount,
+  videoCount,
+}) => {
   const features = [
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/54fe56aa9821b6b7d5baa4c5ffc311129d73f85ba6b9dd90d4788b16f6ea7e0f?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9",
       title: "Comprehensive Course",
       description:
-        "Master every aspect of the CAT with our all-inclusive & in-depth curriculum.",
+        "Master every aspect of the CAT|XAT|NMAT|SNAP with our all-inclusive & in-depth curriculum.",
     },
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/ccef8cd6a0c1558782896c77cd87f0b3fef6842e86466310331bb0f6123a3d4d?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9",
       title: "Result-Oriented Batch",
       description:
-        "Boost your CAT performance with strategically designed, targeted, and high-impact sessions.",
+        "Boost your CAT|XAT|NMAT|SNAP performance with strategically designed, targeted, and high-impact sessions.",
     },
     {
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/ccef8cd6a0c1558782896c77cd87f0b3fef6842e86466310331bb0f6123a3d4d?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9",
@@ -42,6 +50,8 @@ const MainComponent: React.FC = () => {
       />
       <HeroBanner heroImage="/achievers-2023.jpeg" />
       <WhyCAT2IIM
+        videoCount={videoCount}
+        viewCount={(parseInt(viewCount, 10) / 1000).toFixed(0)}
         statIcon="https://cdn.builder.io/api/v1/image/assets/TEMP/2a2feafe75cded1131096584e908edfce94b477b2293a109b61fef2f7a2f71cf?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
         features={features}
       />

@@ -43,18 +43,19 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ heroImage }) => {
               Think Top B-school, Think CAT2IIM
             </h1>
             <p className="mt-10 mr-8 text-2xl font-light max-md:mr-2.5 max-md:max-w-full">
-              1 out of every 2 CAT2IIM students receive top B-School call
+              1 out of every 2 CAT2IIM students receives top B-School call
             </p>
             <p className="mt-14 text-base font-light leading-5 max-md:mt-10 max-md:mr-1 max-md:max-w-full leading-6">
-              We offer Personalised Learning Experience through Online classes
+              We Offer Personalised Learning Experience through Online classes
               for CAT/XAT/NMAT/SNAP to get into top B-Schools.
             </p>
             <a
-              href="/contact"
+              href="https://forms.gle/wcGMo1nHRn1FpDGe8"
+              target="_blank"
               className="flex gap-2.5 justify-center items-center self-start px-8 py-3 mt-7 text-xs text-center bg-rose-500 rounded-md max-md:px-5"
             >
               <span className="self-stretch my-auto font-light tracking-normal">
-                Contact us
+                Enquiry Form
               </span>
               <span className="self-stretch my-auto font-black leading-none">
                 {" "}

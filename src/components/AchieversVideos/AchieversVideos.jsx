@@ -26,6 +26,10 @@ const allVideos = [
     id: "QEp1kT_nXv0",
   },
   {
+    name: "Chirag",
+    id: "wetajf4yWrg",
+  },
+  {
     name: "Sanjay Jaiswal",
     id: "oZ83d6ESC0Q",
   },
@@ -55,7 +59,7 @@ export default function AchieversVideos({ numVideos = allVideos.length }) {
             title="CAT 25 &amp; OMETs Super 60 Batch| Start Date 31st Aug I#iimcat #cat25  #mbaprep #iim #catprep #cat2025"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
           <div className="mt-2 text-sm text-center">{video.name}</div>

@@ -223,9 +223,9 @@ export default function MentorFooter() {
       </div>
       <div className="mt-10 px-4 text-xl font-semibold leading-8 max-md:leading-[1.5] text-center text-indigo-700 w-[613px] max-md:max-w-full">
         Quant & LRDI Trainer with over 20 years of teaching experience with
-        Career Launcher, TIME, Tathagat and Unacademy, Manoj sir has been
-        teaching at CAT2IIM for more than 2 years now with excellent results for
-        his students.
+        Career Launcher, TIME, Tathagat and Unacademy. Manoj sir has been
+        teaching at CAT2IIM for more than 2 years now producing excellent
+        results for his students.
       </div>
       <div className="self-end mt-20 w-full max-w-[1376px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col justify-center">

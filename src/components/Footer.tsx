@@ -54,6 +54,17 @@ export default function Footer() {
                 className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
               />
             </a>
+            <a
+              href="https://whatsapp.com/channel/0029Vaj0Up4HQbS1geV5GE1W"
+              target="_blank"
+              className="text-white"
+            >
+              <img
+                loading="lazy"
+                srcSet="/whatsapp.svg"
+                className="object-contain shrink-0 rounded-none aspect-square w-[29px]"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -65,11 +76,24 @@ export default function Footer() {
         <a href="/results" className="mt-4">
           Results
         </a>
+        <a href="/courses" className="mt-4">
+          Courses
+        </a>
         <a href="/achievers" className="mt-4">
-          Achiever’s Message
+          Achiever's Message
         </a>
         <a href="/new-batch" className="self-stretch mt-4">
           New Batch
+        </a>
+        <a href="/contact" className="mt-4">
+          Contact Us
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/cat2iimbymm"
+          className="mt-4"
+        >
+          Recent Updates
         </a>
       </div>
     </footer>

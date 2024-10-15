@@ -7,17 +7,24 @@ import StatCard from "./StatCard";
 
 type WhyCAT2IIMProps = {
   statIcon: string;
+  videoCount: string;
+  viewCount: string;
   features: { icon: string; title: string; description: string }[];
 };
 
-const WhyCAT2IIM: React.FC<WhyCAT2IIMProps> = ({ statIcon, features }) => {
+const WhyCAT2IIM: React.FC<WhyCAT2IIMProps> = ({
+  statIcon,
+  features,
+  videoCount,
+  viewCount,
+}) => {
   return (
     <section className="flex justify-between pt-16 max-md:pt-10 max-md:flex-col max-md:w-full max-md:items-center max-md:gap-12">
       <StatCard
         icon={statIcon}
         stats={[
-          { value: "40k+", label: "views on youtube" },
-          { value: "200+", label: "videos" },
+          { value: `${viewCount}k+`, label: "views on youtube" },
+          { value: `${videoCount}+`, label: "videos" },
         ]}
       />
       <div className="max-w-[45%] max-md:max-w-[90%]">

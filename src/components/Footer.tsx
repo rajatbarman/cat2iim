@@ -76,13 +76,18 @@ export default function Footer() {
         <a href="/results" className="mt-4">
           Results
         </a>
-        <a href="/courses" className="mt-4">
-          Courses
-        </a>
+
         <a href="/achievers" className="mt-4">
           Achiever&apos;s Message
         </a>
-        <a href="/new-batch" className="self-stretch mt-4">
+        <a href="/courses" className="mt-4">
+          Courses
+        </a>
+        <a
+          target="_blank"
+          href="https://www.youtube.com/@CAT2IIMByManojMahajan"
+          className="self-stretch mt-4"
+        >
           New Batch
         </a>
         <a href="/contact" className="mt-4">

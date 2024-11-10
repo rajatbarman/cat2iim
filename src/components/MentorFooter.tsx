@@ -155,7 +155,7 @@ Because of Manoj Sir's guidance, I was able to get calls from colleges like IIT 
   },
   {
     name: "Sahil",
-    result: "SIBM Pune & SCMHRD call 2022",
+    result: "SIBM Pune & SCMHRD Call 2022",
     text: "",
     photoURL: "./sahil.jpeg",
   },

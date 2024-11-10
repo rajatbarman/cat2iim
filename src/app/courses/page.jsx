@@ -48,6 +48,13 @@ const courses = [
       { text: "Telegram Discussion Group" },
     ],
   },
+  {
+    title: "CAT & OMETS RECORDED COURSE",
+    features: [
+      { text: "QA & LRDI Concepts Recordings ( 350+ hrs )" },
+      { text: "Material & Assignments" }
+    ],
+  },
 ];
 
 export default function Courses() {

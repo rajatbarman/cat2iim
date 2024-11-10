@@ -32,14 +32,14 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
       href: "/results",
     },
     {
-      text: "Courses",
-      isSemibold: activeMenuItem === "courses",
-      href: "/courses",
-    },
-    {
       text: "Achiever's Message",
       isSemibold: activeMenuItem === "achievers",
       href: "/achievers",
+    },
+    {
+      text: "Courses",
+      isSemibold: activeMenuItem === "courses",
+      href: "/courses",
     },
     {
       text: "New Batch",

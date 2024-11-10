@@ -17,7 +17,11 @@ export default function ContactUs() {
           📞 <a href="tel:+91 98915 65351">+91 98915 65351</a>
         </h1>
         <h1 className="mt-2">
-          <a target="_blank" href="https://forms.gle/wcGMo1nHRn1FpDGe8">
+          <a
+            className="underline"
+            target="_blank"
+            href="https://forms.gle/wcGMo1nHRn1FpDGe8"
+          >
             Enquiry Form
           </a>
         </h1>

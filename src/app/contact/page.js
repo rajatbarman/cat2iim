@@ -6,7 +6,7 @@ export default function ContactUs() {
     <section className="max-w-[1280px] m-auto">
       <Header activeMenuItem="contact" logo="./cat2iim.png" />
       <div className="flex-col items-center justify-center text-center">
-        <h1 className="text-2xl max-w-[720px] mx-auto mt-4 text-center mb-6 border-y-2 border-solid border-rose-500 py-2 ">
+        <h1 className="text-2xl max-w-[720px] mx-auto mt-4 text-center mb-6 border-y-2 border-solid border-logo-blue py-2 ">
           Contact Us
         </h1>
         <h1 className="mt-8">

@@ -6,6 +6,7 @@ import React, { useMemo } from "react";
 import Testimonial from "./Testimonial";
 import Footer from "./Footer";
 import AchieversVideos from "./AchieversVideos/AchieversVideos";
+import { RxDoubleArrowRight, RxThickArrowRight } from "react-icons/rx";
 
 export const allTestimonials = [
   {
@@ -215,7 +216,7 @@ export default function MentorFooter() {
       <div className="text-base font-semibold leading-8 text-center text-zinc-800">
         “Not Just An Educator, But A Mentor”
       </div>
-      <div className="mt-10 px-4 text-xl font-semibold leading-8 max-md:leading-[1.5] text-center text-indigo-700 w-[613px] max-md:max-w-full">
+      <div className="mt-10 px-4 text-xl font-semibold leading-8 max-md:leading-[1.5] text-center text-logo-blue w-[613px] max-md:max-w-full">
         Quant & LRDI Trainer with over 20 years of teaching experience with
         Career Launcher, TIME, Tathagat and Unacademy. Manoj sir has been
         teaching at CAT2IIM for more than 2 years now producing excellent
@@ -230,10 +231,7 @@ export default function MentorFooter() {
           className="mt-8 flex justify-end items-center cursor-pointer pr-2"
         >
           View all messages
-          <img
-            className="ml-2"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/376b86ae6715805320f789525e320d8d6afd521a9f6f25557c2323cf2ee8fab9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-          />
+          <RxDoubleArrowRight className="ml-2 text-logo-blue" />
         </a>
         <div className="flex gap-5 max-md:flex-col justify-center mt-20 max-md:mt-10">
           {testimonials.map((testimonial) => (
@@ -245,10 +243,7 @@ export default function MentorFooter() {
           className="mt-8 flex justify-end items-center cursor-pointer pr-2"
         >
           View all testimonials
-          <img
-            className="ml-2"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/376b86ae6715805320f789525e320d8d6afd521a9f6f25557c2323cf2ee8fab9?placeholderIfAbsent=true&apiKey=9bca9c6557e04269a5028755255fb6a9"
-          />
+          <RxDoubleArrowRight className="ml-2 text-logo-blue" />
         </a>
       </div>
       <Footer />

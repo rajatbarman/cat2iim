@@ -35,7 +35,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ heroImage }) => {
   };
 
   return (
-    <section className="py-20 max-md:py-10 max-md:rounded-none pr-7 pl-16 mt-2.5 w-full bg-indigo-700 rounded-3xl max-md:px-5 max-md:max-w-full">
+    <section className="py-20 max-md:py-10 max-md:rounded-none pr-7 pl-16 mt-2.5 w-full bg-logo-blue rounded-3xl max-md:px-5 max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col w-full text-white max-md:max-w-full">

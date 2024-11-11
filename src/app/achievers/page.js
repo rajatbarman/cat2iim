@@ -50,7 +50,7 @@ export default function Achievers() {
   return (
     <section className="max-w-[1280px] m-auto">
       <Header activeMenuItem="achievers" logo="./cat2iim.png" />
-      <h1 className="text-2xl max-w-[720px] mx-auto mt-4 text-center mb-6 border-y-2 border-solid border-rose-500 py-2 ">
+      <h1 className="text-2xl max-w-[720px] mx-auto mt-4 text-center mb-6 border-y-2 border-solid border-logo-blue py-2 ">
         Achiever&apos;s Messages
       </h1>
       <AchieversVideos />

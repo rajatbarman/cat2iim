@@ -84,7 +84,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
             target={isExternalLink(item.href) ? "_blank" : "_self"}
             className={`self-stretch my-auto ml-10 ${
               item.isSemibold ? "font-semibold  border-b-2 border-black" : ""
-            } ${item.isHighlighted ? "text-indigo-700" : ""} ${
+            } ${item.isHighlighted ? "text-logo-blue" : ""} ${
               item.text.includes(" ") ? "basis-auto" : ""
             }`}
           >
@@ -112,7 +112,7 @@ const Header: React.FC<HeaderProps> = ({ logo, activeMenuItem }) => {
                     href={item.href}
                     className={`mt-4 text-xl ml-10 ${
                       item.isSemibold ? "font-semibold" : ""
-                    } ${item.isHighlighted ? "text-indigo-700" : ""} ${
+                    } ${item.isHighlighted ? "text-logo-blue" : ""} ${
                       item.text.includes(" ") ? "basis-auto" : ""
                     }`}
                   >

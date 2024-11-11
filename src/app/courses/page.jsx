@@ -62,7 +62,7 @@ export default function Courses() {
     <section className="max-w-[1280px] m-auto">
       <Header activeMenuItem="courses" logo="./cat2iim.png" />
       <section className="max-w-[720px] m-auto">
-        <h1 className="text-2xl mt-4 text-center mb-6 border-y-2 border-solid border-rose-500 py-2 ">
+        <h1 className="text-2xl mt-4 text-center mb-6 border-y-2 border-solid border-logo-blue py-2 ">
           Offered Courses
         </h1>
         {courses.map((course) => {

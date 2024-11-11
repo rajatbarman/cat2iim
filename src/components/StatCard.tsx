@@ -29,10 +29,10 @@ const StatCard: React.FC<StatCardProps> = ({ icon, stats }) => {
         {stats.map((stat, index) => (
           <React.Fragment key={index}>
             {index > 0 && (
-              <div className="shrink-0 self-stretch w-px h-20 border border-indigo-700 border-solid" />
+              <div className="shrink-0 self-stretch w-px h-20 border border-logo-blue border-solid" />
             )}
             <div className="flex flex-col">
-              <div className="text-2xl font-bold text-indigo-700">
+              <div className="text-2xl font-bold text-logo-blue">
                 {stat.value}
               </div>
               <div className="mt-5 text-xs tracking-wide text-black">

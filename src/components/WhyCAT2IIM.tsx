@@ -28,7 +28,7 @@ const WhyCAT2IIM: React.FC<WhyCAT2IIMProps> = ({
         ]}
       />
       <div className="max-w-[45%] max-md:max-w-[90%]">
-        <h2 className="self-center ml-5 text-xl text-indigo-700">
+        <h2 className="self-center ml-5 text-xl text-logo-blue">
           Why CAT2IIM?
         </h2>
         <div className="flex flex-col items-start text-xl text-black max-md:max-w-full">

@@ -14,18 +14,22 @@ const courses = [
       { text: "Recorded Sessions Available" },
       { text: "Expect Direct & Similar Questions" },
       { text: "Regular Assignments & Doubt Clearing Sessions" },
-    ],
-  },
-  {
-    title: "OMETS BOOSTER COURSE",
-    features: [
-      { text: "One to One Personalized Mentoring Sessions" },
-      { text: "Exhaustive Practice of QA & LRDI" },
-      { text: "Live & Recorded OMETS Booster Course (70+ hrs)" },
-      { text: "Expect Direct & Similar Questions" },
       { text: "Telegram Discussion Group" },
     ],
   },
+
+  {
+    title: "CAT & OMETS SELF PACED COURSE",
+    features: [
+      { text: "One to One Personalized Mentoring Sessions" },
+      { text: "CAT & OMETS QA & LRDI Concepts Recordings (350+ hrs)" },
+      { text: "Live & Recorded CAT Booster Course (110+ hrs)" },
+      { text: "Live & Recorded OMETS Booster Course (70+ hrs)" },
+      { text: "Material & Assignments" },
+      { text: "Telegram Discussion Group" },
+    ],
+  },
+
   {
     title: "CAT & OMETS BOOSTER COURSE",
     features: [
@@ -38,13 +42,12 @@ const courses = [
     ],
   },
   {
-    title: "CAT & OMETS SELF PACED COURSE",
+    title: "OMETS BOOSTER COURSE",
     features: [
       { text: "One to One Personalized Mentoring Sessions" },
-      { text: "CAT & OMETS QA & LRDI Concepts Recordings (350+ hrs)" },
-      { text: "Live & Recorded CAT Booster Course (110+ hrs)" },
+      { text: "Exhaustive Practice of QA & LRDI" },
       { text: "Live & Recorded OMETS Booster Course (70+ hrs)" },
-      { text: "Material & Assignments" },
+      { text: "Expect Direct & Similar Questions" },
       { text: "Telegram Discussion Group" },
     ],
   },

@@ -37,7 +37,7 @@ export default function About() {
           <ul className="mt-4 flex-col flex gap-3 max-md:px-4">
             <li>👉🏼 Experience 20+ years in Test Prep Industry(CAT & OMETs) </li>
             <li>
-              👉🏼 QA & LRDI Trainer with over 12 years of experience, working
+              👉🏼 QA & LRDI Trainer 
               with{" "}
               <span className="whitespace-nowrap">
                 Career Launcher (12+ years)

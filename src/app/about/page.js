@@ -35,7 +35,7 @@ export default function About() {
             Manoj Mahajan
           </div>
           <ul className="mt-4 flex-col flex gap-3 max-md:px-4">
-            <li>👉🏼 Experience 20+ years </li>
+            <li>👉🏼 Experience 20+ years in Test Prep Industry(CAT & OMETs) </li>
             <li>
               👉🏼 QA & LRDI Trainer with over 12 years of experience, working
               with{" "}
@@ -49,9 +49,12 @@ export default function About() {
             </li>
             <li>👉🏼 Feedback Pan Career Launcher was Number 1 in 2018</li>
             <li>👉🏼 Number 1 Unacademy CAT Faculty in 2019</li>
-            <li>👉🏼 Ex Career Launcher Delhi Academic Head</li>
             <li>👉🏼 CAT QA 99.97, LRDI 98.81 Overall 98.86</li>
             <li>👉🏼 IIM Calls: B,L,I,K</li>
+            <li>👉🏼 Ex Career Launcher Delhi Academic Head</li>
+            <li>👉🏼 Mentored Thousand of Students</li>
+            
+            
           </ul>
         </div>
         <div className="mt-10 flex flex-col gap-2 border-t border-b py-4 max-md:px-4">
